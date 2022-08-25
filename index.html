@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <aside>
+      <div class="top">
+        <div class="logo">
+          <img src="img/logo.png" alt="">
+          <h2>Day <span>Fied</span></h2>
+        </div>
+        <div class="close" id="close-btn">
+          <i class="bi bi-arrow-left-short"></i>
+        </div>
+      </div>
+      <div class="sidebar">
+        <a href="" class="">
+          <i class="bi bi-grid"></i>
+          <h3>Dashboard</h3>
+        </a>
+        <a href="" class="active">
+          <i class="bi bi-person"></i>
+          <h3>Customers</h3>
+        </a>
+        <a href="">
+          <i class="bi bi-bag"></i>
+          <h3>orders</h3>
+        </a>
+        <a href="">
+          <i class="bi bi-bar-chart-line"></i>
+          <h3>Analytics</h3>
+        </a>
+        <a href="">
+          <i class="bi bi-chat"></i>
+          <h3>Message</h3>
+          <span class="message-count">26</span>
+        </a>
+        <a href="">
+          <i class="bi bi-cart3"></i>
+          <h3>Products</h3>
+        </a>
+        <a href="">
+          <i class="bi bi-exclamation-circle"></i>
+          <h3>Reports</h3>
+        </a>
+        <a href="">
+          <i class="bi bi-gear"></i>
+          <h3>Settings</h3>
+        </a>
+      </div>
+    </aside>
+    <main>
+      <h1>Dashboard</h1>
+
+      <div class="date">
+        <input type="date">
+      </div>
+
+      <div class="insights">
+        <div class="sales">
+          <i class="bi bi-bar-chart-line-fill"></i>
+          <div class="middle">
+            <div class="left">
+              <h3>Total Sales</h3>
+              <h1>$25,667</h1>
+            </div>
+            <div class="pogress">
+              <svg>
+                <circle cx="38" cy="38" r="36"></circle>
+              </svg>
+              <div class="number">
+                <p>81%</p>
+              </div>
+            </div>
+          </div>
+          <small class="text-muted">Lest 24hrs</small>
+        </div>
+
+        <div class="expenses">
+          <i class="bi bi-bar-chart-line"></i>
+          <div class="middle">
+            <div class="left">
+              <h3>Total Expenses</h3>
+              <h1>$14,667</h1>
+            </div>
+            <div class="pogress">
+              <svg>
+                <circle cx="38" cy="38" r="36"></circle>
+              </svg>
+              <div class="number">
+                <p>81%</p>
+              </div>
+            </div>
+          </div>
+          <small class="text-muted">Lest 24hrs</small>
+        </div>
+
+        <div class="income">
+          <i class="bi bi-wallet"></i>
+          <div class="middle">
+            <div class="left">
+              <h3>Total income</h3>
+              <h1>$25,667</h1>
+            </div>
+            <div class="pogress">
+              <svg>
+                <circle cx="38" cy="38" r="36"></circle>
+              </svg>
+              <div class="number">
+                <p>81%</p>
+              </div>
+            </div>
+          </div>
+          <small class="text-muted">Lest 24hrs</small>
+        </div>
+      </div>
+
+      <div class="recent-orders">
+        <h2>Recent orders</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Product Name</th>
+              <th>Product Number</th>
+              <th>Payment</th>
+              <th>Status</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Foldable mini Drome</td>
+              <td>57546</td>
+              <td>Due</td>
+              <td class="warning">Pending</td>
+              <td class="primary">Details</td>
+            </tr>
+
+            <tr>
+              <td>Foldable mini Drome</td>
+              <td>57546</td>
+              <td>Due</td>
+              <td class="warning">Pending</td>
+              <td class="primary">Details</td>
+            </tr>
+
+            <tr>
+              <td>Foldable mini Drome</td>
+              <td>57546</td>
+              <td>Due</td>
+              <td class="warning">Pending</td>
+              <td class="primary">Details</td>
+            </tr>
+
+            <tr>
+              <td>Foldable mini Drome</td>
+              <td>57546</td>
+              <td>Due</td>
+              <td class="warning">Pending</td>
+              <td class="primary">Details</td>
+            </tr>
+          </tbody>
+        </table>
+        <a href="#">Show All</a>
+      </div>
+    </main>
+
+    <div class="right">
+      <div class="top">
+        <button id="menu-btn" class="menu">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="theme-toggler">
+          <i class="bi bi-sun active"></i>
+          <i class="bi bi-moon"></i>
+        </div>
+        <div class="profile">
+          <div class="info">
+            <p>Hey, <b>Daniel</b></p>
+            <small class="text-muted">Admin</small>
+          </div>
+          <div class="profile-photo">
+            <img src="img/logo.png" alt="img/logo.png">
+          </div>
+        </div>
+      </div>
+      <div class="recent-updates">
+        <h2>Recent-updates</h2>
+        <div class="updates">
+          <div class="update">
+            <div class="profile-photo">
+              <img src="img/logo.png" alt="img/logo.png">
+            </div>
+            <div class="message">
+              <p><b>Mike Tyson</b> received the payment</p>
+              <small class="text-muted">2 minutes ago</small>
+            </div>
+          </div>
+
+          <div class="update">
+            <div class="profile-photo">
+              <img src="img/logo.png" alt="img/logo.png">
+            </div>
+            <div class="message">
+              <p><b>Mike Tyson</b> received the payment</p>
+              <small class="text-muted">2 minutes ago</small>
+            </div>
+          </div>
+          <div class="update">
+            <div class="profile-photo">
+              <img src="img/logo.png" alt="img/logo.png">
+            </div>
+            <div class="message">
+              <p><b>Mike Tyson</b> received the payment</p>
+              <small class="text-muted">2 minutes ago</small>
+            </div>
+          </div>
+          <div class="update">
+            <div class="profile-photo">
+              <img src="img/logo.png" alt="img/logo.png">
+            </div>
+            <div class="message">
+              <p><b>Mike Tyson</b> received the payment</p>
+              <small class="text-muted">2 minutes ago</small>
+            </div>
+          </div>
+          <div class="update">
+            <div class="profile-photo">
+              <img src="img/logo.png" alt="img/logo.png">
+            </div>
+            <div class="message">
+              <p><b>Mike Tyson</b> received the payment</p>
+              <small class="text-muted">2 minutes ago</small>
+            </div>
+          </div>
+          <div class="update">
+            <div class="profile-photo">
+              <img src="img/logo.png" alt="img/logo.png">
+            </div>
+            <div class="message">
+              <p><b>Mike Tyson</b> received the payment</p>
+              <small class="text-muted">2 minutes ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
